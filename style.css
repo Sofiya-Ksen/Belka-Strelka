@@ -1,0 +1,65 @@
+/* Основні налаштування */
+body {
+    background-color: #1a0a05; /* Темно-марсіанський колір */
+    color: #ffccaa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to bottom, #e25822, #b22222); /* Колір іржі та вогню */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 5px solid #ffccaa;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section {
+    padding: 40px 10%;
+    border-bottom: 1px solid #333;
+}
+
+/* Стиль карток команди */
+.team-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.member {
+    background: #331100;
+    padding: 20px;
+    border: 2px solid #e25822;
+    border-radius: 15px;
+    width: 40%;
+    text-align: center;
+}
+
+/* Галерея */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.photo {
+    background: #444;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ffccaa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+    color: #888;
+}
